@@ -1,6 +1,6 @@
 {
   "name": "@those-people/peeps-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Aesthetic-agnostic design system with Panda CSS and Ark UI for Peeps",
   "type": "module",
   "publishConfig": {
