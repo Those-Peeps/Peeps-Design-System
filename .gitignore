@@ -38,3 +38,5 @@ storybook-static/
 
 # Generated Storybook documentation
 stories/documentation/
+# But track Figma Make documentation (manually created)
+!stories/documentation/figma-make/

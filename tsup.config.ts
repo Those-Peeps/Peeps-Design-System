@@ -16,10 +16,10 @@ export default defineConfig({
     {
       name: 'rewrite-styled-system-imports',
       setup(build) {
-        // Rewrite styled-system/* imports to @peeps/design-system/styled-system/*
+        // Rewrite styled-system/* imports to @those-people/peeps-design-system/styled-system/*
         build.onResolve({ filter: /^styled-system\// }, (args) => {
           return {
-            path: args.path.replace('styled-system/', '@peeps/design-system/styled-system/'),
+            path: args.path.replace('styled-system/', '@those-people/peeps-design-system/styled-system/'),
             external: true,
           };
         });
